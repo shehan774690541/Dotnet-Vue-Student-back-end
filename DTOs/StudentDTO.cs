@@ -24,8 +24,5 @@ namespace learnMySQL.DTOs
 
         [Required]
         public string pic_url { get; set; }
-
-        //[Required]
-        //public Array pic_file { get; set; }
     }
 }

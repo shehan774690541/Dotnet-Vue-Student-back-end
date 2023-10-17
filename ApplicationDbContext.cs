@@ -11,5 +11,7 @@ namespace learnMySQL
         }
         public virtual DbSet<StudentModel> Students { get; set; }
 
+        public virtual DbSet<SubjectsModel> Subjects { get; set; }
+
     }
 }

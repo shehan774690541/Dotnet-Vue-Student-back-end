@@ -1,5 +1,6 @@
 using learnMySQL;
 using learnMySQL.Services.StudentService;
+using learnMySQL.Services.SubjectService;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 
@@ -16,6 +17,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 });
 
 builder.Services.AddScoped<IStudentService, StudentsService>();
+
+builder.Services.AddScoped<ISubjectService, subjectService>();
 
 builder.Services.AddCors(options =>
 {
@@ -42,9 +45,14 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
 app.UseStaticFiles();
 
-
+using (var scope = app.Services.CreateScope())
+{
+    scope.ServiceProvider
+        .GetRequiredService<ApplicationDbContext>().Database.EnsureCreated();
+}
 
 app.UseHttpsRedirection();
 
