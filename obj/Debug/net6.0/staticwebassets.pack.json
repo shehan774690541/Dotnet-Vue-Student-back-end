@@ -1,0 +1,69 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\pay meadia\\dotnet core web API\\L1\\learnMySQL\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "E:\\pay meadia\\dotnet core web API\\L1\\learnMySQL\\wwwroot\\uploads\\usr_exapmple 1_095955062.png",
+      "PackagePath": "staticwebassets\\uploads\\usr_exapmple 1_095955062.png"
+    },
+    {
+      "Id": "E:\\pay meadia\\dotnet core web API\\L1\\learnMySQL\\wwwroot\\uploads\\usr_nithika - edited!yftrdrt_211227343.png",
+      "PackagePath": "staticwebassets\\uploads\\usr_nithika - edited!yftrdrt_211227343.png"
+    },
+    {
+      "Id": "E:\\pay meadia\\dotnet core web API\\L1\\learnMySQL\\wwwroot\\uploads\\usr_shehan -edited!_115802023.png",
+      "PackagePath": "staticwebassets\\uploads\\usr_shehan -edited!_115802023.png"
+    },
+    {
+      "Id": "E:\\pay meadia\\dotnet core web API\\L1\\learnMySQL\\wwwroot\\uploads\\usr_shehan_123152369.png",
+      "PackagePath": "staticwebassets\\uploads\\usr_shehan_123152369.png"
+    },
+    {
+      "Id": "E:\\pay meadia\\dotnet core web API\\L1\\learnMySQL\\wwwroot\\uploads\\usr_this_074228469.png",
+      "PackagePath": "staticwebassets\\uploads\\usr_this_074228469.png"
+    },
+    {
+      "Id": "E:\\pay meadia\\dotnet core web API\\L1\\learnMySQL\\wwwroot\\uploads\\usr_veyanga_120810347.png",
+      "PackagePath": "staticwebassets\\uploads\\usr_veyanga_120810347.png"
+    },
+    {
+      "Id": "E:\\pay meadia\\dotnet core web API\\L1\\learnMySQL\\wwwroot\\uploads\\usr_veyanga_123128682.png",
+      "PackagePath": "staticwebassets\\uploads\\usr_veyanga_123128682.png"
+    },
+    {
+      "Id": "E:\\pay meadia\\dotnet core web API\\L1\\learnMySQL\\wwwroot\\uploads\\usr_vue app new_073221332.png",
+      "PackagePath": "staticwebassets\\uploads\\usr_vue app new_073221332.png"
+    },
+    {
+      "Id": "E:\\pay meadia\\dotnet core web API\\L1\\learnMySQL\\wwwroot\\uploads\\usr_vue app new_073830863.png",
+      "PackagePath": "staticwebassets\\uploads\\usr_vue app new_073830863.png"
+    },
+    {
+      "Id": "E:\\pay meadia\\dotnet core web API\\L1\\learnMySQL\\wwwroot\\uploads\\usr_vue app new_094948934.png",
+      "PackagePath": "staticwebassets\\uploads\\usr_vue app new_094948934.png"
+    },
+    {
+      "Id": "E:\\pay meadia\\dotnet core web API\\L1\\learnMySQL\\wwwroot\\uploads\\usr_vue app new_123637052.png",
+      "PackagePath": "staticwebassets\\uploads\\usr_vue app new_123637052.png"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.learnMySQL.props",
+      "PackagePath": "build\\learnMySQL.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.learnMySQL.props",
+      "PackagePath": "buildMultiTargeting\\learnMySQL.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.learnMySQL.props",
+      "PackagePath": "buildTransitive\\learnMySQL.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.learnMySQL.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

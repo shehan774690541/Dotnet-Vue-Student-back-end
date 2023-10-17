@@ -26,9 +26,5 @@ namespace learnMySQL.Models
 
         [Required]
         public string pic_url { get; set; }
-
-
-
-
     }
 }

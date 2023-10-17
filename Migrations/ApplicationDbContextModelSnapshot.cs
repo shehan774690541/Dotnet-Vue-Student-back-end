@@ -52,6 +52,25 @@ namespace learnMySQL.Migrations
 
                     b.ToTable("students");
                 });
+
+            modelBuilder.Entity("learnMySQL.Models.SubjectsModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<string>("Check")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Subject")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("subjects");
+                });
 #pragma warning restore 612, 618
         }
     }
