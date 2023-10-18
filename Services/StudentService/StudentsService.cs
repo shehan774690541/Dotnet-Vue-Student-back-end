@@ -258,7 +258,14 @@ namespace learnMySQL.Services.StudentService
                 {
                     StudentModel studentToDelete = context.Students.Where(student => student.id == id).FirstOrDefault();
 
-                    if(studentToDelete != null)
+                    try
+                    {
+                        string old_pic = studentToDelete.pic_url;
+                        File.Delete("wwwroot/uploads/" + old_pic);
+                    }
+                    catch { }
+
+                    if (studentToDelete != null)
                     {
                         context.Students.Remove(studentToDelete);
                         context.SaveChanges();
